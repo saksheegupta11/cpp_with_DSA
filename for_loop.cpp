@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int i,n, fact=1, sum=0;
+    int i,j,n, fact=1, sum=0, count=0;
     // Multiplication table of a number
     cout<<"Enter a number: ";
     cin>>n;
@@ -39,5 +39,12 @@ int main(){
     }
     cout<<"Sum of even numbers from 1 to "<<n<<" is: "<<sum<<"\n";
 
+    // Prime numbers
+    for(i=2; i<n; i++){
+        if(n%i != 0){
+        }
+    }
+    cout<<n<<" is a prime number.\n";
+    
     return 0;
 }
