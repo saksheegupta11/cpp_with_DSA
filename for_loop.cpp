@@ -40,11 +40,17 @@ int main(){
     cout<<"Sum of even numbers from 1 to "<<n<<" is: "<<sum<<"\n";
 
     // Prime numbers
-    for(i=2; i<n; i++){
+    for(i=1; i<n; i++){
         if(n%i != 0){
+            count++;
         }
     }
-    cout<<n<<" is a prime number.\n";
+    if(count <=2){
+        cout<<n<<" is a prime number."<<"\n";
+    }
+    else{
+        cout<<n<<" is not a prime number."<<"\n";
+    }
     
     return 0;
 }
