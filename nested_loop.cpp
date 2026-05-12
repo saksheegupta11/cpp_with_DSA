@@ -1,9 +1,9 @@
-// Print table of 1 to n numbers
 #include<iostream>
 #include<iomanip>
 using namespace std;
 int main(){
     int i,j,n;
+    // Print table of 1 to n numbers
     cout<<"Enter a number: ";
     cin>>n;
     for(i=1; i<=10; i++){
