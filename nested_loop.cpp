@@ -1,3 +1,4 @@
+// Print table of 1 to n numbers
 #include<iostream>
 #include<iomanip>
 using namespace std;
